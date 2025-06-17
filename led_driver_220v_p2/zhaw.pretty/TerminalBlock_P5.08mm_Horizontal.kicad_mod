@@ -1,0 +1,227 @@
+(footprint "TerminalBlock_P5.08mm_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Terminal Block Phoenix MKDS-3-2-5.08, 2 pins, pitch 5.08mm, size 10.2x11.2mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/2138224.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
+	(tags "THT Terminal Block Phoenix MKDS-3-2-5.08 pitch 5.08mm size 10.2x11.2mm drill 1.3mm pad 2.6mm")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "79588381-011d-4c14-a9d1-8673f59e8ef3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TerminalBlock_P5.08mm_Horizontal"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(uuid "cd322cb7-4c19-47ee-a858-49e230af7623")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77a38af6-f393-478f-9d01-af6a8de53a0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a9d2eb1-abd1-4a79-946a-3e3d667f13fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5 -2)
+		(end -5 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58ecc332-f0dc-4476-a28b-75bf58ba58bf")
+	)
+	(fp_line
+		(start -5 -2)
+		(end 5 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea1346d2-4800-43da-ab7c-a88ae0d78326")
+	)
+	(fp_line
+		(start -5 2)
+		(end 5 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db1f651a-5a1c-4d5f-beda-f21abc98c93a")
+	)
+	(fp_line
+		(start 5 -2)
+		(end 5 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7095a276-cfe4-4c1a-9014-f13d168484ac")
+	)
+	(fp_poly
+		(pts
+			(xy -2.63 2.4) (xy -2.19 3.01) (xy -3.07 3.01)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d5168469-b57e-4de2-895c-84adc6564721")
+	)
+	(fp_line
+		(start -5.4 -2.4)
+		(end -5.4 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "46ad12dc-119d-4616-8de6-e3b101e7a99e")
+	)
+	(fp_line
+		(start -5.4 2.4)
+		(end 5.4 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "990b7245-878f-499c-9aa3-e5f9eea8d5c6")
+	)
+	(fp_line
+		(start 5.4 -2.4)
+		(end -5.4 -2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f65eacc5-de16-4ed3-b867-69e1552d24ee")
+	)
+	(fp_line
+		(start 5.4 2.4)
+		(end 5.4 -2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33c82b2d-7c8c-4cf4-8d87-65aba8ca0312")
+	)
+	(fp_line
+		(start -4.9 -1.9)
+		(end 4.9 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b2a706d-593f-4f52-b130-aa298f986965")
+	)
+	(fp_line
+		(start -4.9 1.9)
+		(end -4.9 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cff0c9d1-be4b-4bf2-a910-118c50ef781b")
+	)
+	(fp_line
+		(start -4.9 1.9)
+		(end 4.9 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2e3ba76-21c0-4289-86fd-678caf3e3439")
+	)
+	(fp_line
+		(start 4.9 -1.9)
+		(end 4.9 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c495d547-0317-4cd7-9ceb-d730d6162113")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.8 0)
+		(layer "F.Fab")
+		(uuid "0a0c73e6-1ce1-4fd2-aef2-a1971833ea13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 0)
+		(size 3.2 3.2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.096154)
+		(uuid "4250f696-ce89-4df0-8944-c7157092a5f9")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 3.5 3.5)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ea6a3376-9434-40fc-9513-f0e97c5afe21")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

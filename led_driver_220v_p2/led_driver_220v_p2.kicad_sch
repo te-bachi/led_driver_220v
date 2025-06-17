@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "73fbfc2f-6207-4cf0-8939-c74998e2b107")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 20.32 25.4)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "baa6b3cc-80da-4cf2-b890-2f2b3bcfba21")
+		(property "Sheetname" "High Voltage"
+			(at 20.32 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "High_Voltage.kicad_sch"
+			(at 20.32 33.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "led_driver_220v_p2"
+				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

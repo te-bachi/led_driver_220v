@@ -1,0 +1,320 @@
+(footprint "USB_C_DEALON_009"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A")
+	(tags "USB C Type-C Receptacle Hybrid")
+	(property "Reference" "REF**"
+		(at 0 -2.1082 0)
+		(layer "F.SilkS")
+		(uuid "09823dac-0cf0-499f-8675-80926001b5a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB_C_DEALON_009"
+		(at 0 8.382 0)
+		(layer "F.Fab")
+		(uuid "6addd49b-7649-4950-8409-c550f2f17584")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e49b2f76-dd9b-4018-8e35-b57c39782d6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e37f3f1-ce14-4c72-a780-d5ca3893290e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.75 1.27)
+		(end -4.7498 3.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2931665-9613-433c-aa14-e9abf85d36ae")
+	)
+	(fp_line
+		(start -4.7498 4.953)
+		(end -4.7498 6.8326)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "369c2d7c-9c5c-4965-8fc3-8878b7193516")
+	)
+	(fp_line
+		(start -4.7498 6.8326)
+		(end 4.7498 6.8326)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9d8dd75-1948-49b8-9f23-d98908253556")
+	)
+	(fp_line
+		(start -3.7084 -0.35)
+		(end -3.302 -0.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f90c6680-2cd6-4066-a128-2c8ebe03fab8")
+	)
+	(fp_line
+		(start 3.302 -0.35)
+		(end 3.7084 -0.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce47fb52-c99f-4a10-ab39-dda3800eb41a")
+	)
+	(fp_line
+		(start 4.7498 4.953)
+		(end 4.7498 6.8326)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9930ccc1-c313-4be2-ac31-2c006f538985")
+	)
+	(fp_line
+		(start 4.75 1.27)
+		(end 4.75 3.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e708e34-9e65-4bc4-84d9-f33cdbc82037")
+	)
+	(fp_line
+		(start -5.39 -0.85)
+		(end 5.39 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e6f05fe-1ec7-4741-9b94-1aad4bfad894")
+	)
+	(fp_line
+		(start -5.39 7.4)
+		(end -5.39 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f413cec4-7e61-490b-87ea-5ea1f59c9e57")
+	)
+	(fp_line
+		(start 5.39 -0.85)
+		(end 5.39 7.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "edd86c06-80c4-475d-8ac0-b7fee2fe3517")
+	)
+	(fp_line
+		(start 5.39 7.4)
+		(end -5.39 7.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8aff6d64-1c61-4c4a-ae06-88f52f8c1ad1")
+	)
+	(fp_line
+		(start -4.6 -0.2)
+		(end 4.6 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "997697f8-ecfc-49c3-bab2-2067ad344e14")
+	)
+	(fp_line
+		(start -4.6 6.7)
+		(end -4.6 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c137d5f6-2825-4870-869b-1f19ad03e570")
+	)
+	(fp_line
+		(start -4.6 6.7)
+		(end 4.6 6.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28190817-4423-4e66-a398-129a3525923d")
+	)
+	(fp_line
+		(start 4.6 6.7)
+		(end 4.6 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1bf977d5-ba47-4842-9234-360e3690a628")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.02 0)
+		(layer "F.Fab")
+		(uuid "fbad371e-9c1d-46a8-95d7-2d0a493b34e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "A5" smd rect
+		(at -0.5 0)
+		(size 0.7 2)
+		(drill
+			(offset 0 -0.35)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6bcf2b8a-7935-42d7-a5e4-efe216daffb3")
+	)
+	(pad "A9" smd rect
+		(at 1.52 0)
+		(size 0.8 2)
+		(drill
+			(offset 0 -0.35)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9f98d70d-9b82-4cfd-8e6c-9a5a2dbdf850")
+	)
+	(pad "A12" smd rect
+		(at 2.75 0)
+		(size 0.9 2)
+		(drill
+			(offset 0 -0.35)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "04e19e33-5ac7-4b55-88ab-2932180f8f92")
+	)
+	(pad "B5" smd rect
+		(at 0.5 0)
+		(size 0.7 2)
+		(drill
+			(offset 0 -0.35)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f8115e39-cc50-4ac3-af5b-daf539ffa90a")
+	)
+	(pad "B9" smd rect
+		(at -1.52 0)
+		(size 0.8 2)
+		(drill
+			(offset 0 -0.35)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5f55ce74-3f7c-4921-97a3-e2c82dab17a8")
+	)
+	(pad "B12" smd rect
+		(at -2.75 0)
+		(size 0.9 2)
+		(drill
+			(offset 0 -0.35)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f4ab1667-0bfb-4604-8150-fdbdb4506122")
+	)
+	(pad "S1" thru_hole oval
+		(at -4.3 0.3)
+		(size 1.1 1.8)
+		(drill oval 0.6 1.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fde7d970-0215-4726-a454-86bbded93072")
+	)
+	(pad "S1" thru_hole oval
+		(at -4.3 4.1)
+		(size 1.1 1.8)
+		(drill oval 0.6 1.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fb388ee2-eae3-4c1e-8b47-87883b962efa")
+	)
+	(pad "S1" thru_hole oval
+		(at 4.3 0.3)
+		(size 1.1 1.8)
+		(drill oval 0.6 1.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "db8bd402-e5c5-4dbf-b3c9-879f427d3681")
+	)
+	(pad "S1" thru_hole oval
+		(at 4.3 4.1)
+		(size 1.1 1.8)
+		(drill oval 0.6 1.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c7079066-c4a6-4757-9480-44b2ba6074fc")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Amphenol_12401548E4-2A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
