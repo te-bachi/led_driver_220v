@@ -1732,6 +1732,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:SPX3819M5-L"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SPX3819M5-L"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "500mA Low drop-out regulator, Adjustable, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "REGULATOR LDO ADJ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SPX3819M5-L_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SPX3819M5-L_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:BSS138"
 			(pin_names
 				(hide yes)
@@ -2283,6 +2459,24 @@
 		)
 		(uuid "97de38e9-7368-4647-9913-a4877657e1bb")
 	)
+	(junction
+		(at 40.64 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "419c9be3-9971-4a7e-9796-bc01f4066ca6")
+	)
+	(junction
+		(at 68.58 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9786bd61-e55b-4031-92d7-d6d342196f96")
+	)
+	(junction
+		(at 68.58 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d270f13b-c033-4368-adbd-c75949d6c1cf")
+	)
 	(no_connect
 		(at 99.06 160.02)
 		(uuid "22bb3abc-8151-4481-abe1-a9017c9742df")
@@ -2365,6 +2559,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 143.51) (xy 44.45 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1afed817-c1af-45c2-9b12-6e167bc385da")
+	)
+	(wire
+		(pts
 			(xy 265.43 118.11) (xy 267.97 118.11)
 		)
 		(stroke
@@ -2372,6 +2576,26 @@
 			(type default)
 		)
 		(uuid "1cee63c0-c2ac-4862-b87a-951b28aaaa2e")
+	)
+	(wire
+		(pts
+			(xy 40.64 143.51) (xy 34.29 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb19d9c-2689-4012-b020-71d3b064a5d6")
+	)
+	(wire
+		(pts
+			(xy 68.58 153.67) (xy 68.58 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7abdc2-378d-4a93-9105-2725344bd171")
 	)
 	(wire
 		(pts
@@ -2455,6 +2679,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 143.51) (xy 68.58 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354f1985-1285-413c-82b8-ddede45d49e7")
+	)
+	(wire
+		(pts
 			(xy 217.17 80.01) (xy 217.17 83.82)
 		)
 		(stroke
@@ -2462,6 +2696,36 @@
 			(type default)
 		)
 		(uuid "35f41bfb-17b1-4611-b363-abad45002c6d")
+	)
+	(wire
+		(pts
+			(xy 68.58 162.56) (xy 68.58 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f740d0-dff7-41e1-8ac5-de40614d4e85")
+	)
+	(wire
+		(pts
+			(xy 68.58 153.67) (xy 68.58 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "467ab713-cf9e-4b0a-89f3-f035a999f3db")
+	)
+	(wire
+		(pts
+			(xy 49.53 180.34) (xy 52.07 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e7f001-cb84-4ad6-ad1d-500e3f268c0d")
 	)
 	(wire
 		(pts
@@ -2525,6 +2789,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 148.59) (xy 63.5 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d74025-7433-48a6-865d-e02515642b91")
+	)
+	(wire
+		(pts
 			(xy 146.05 144.78) (xy 160.02 144.78)
 		)
 		(stroke
@@ -2535,6 +2809,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 146.05) (xy 40.64 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aabd1ca-82b7-4e8e-b09c-8bf420e91ecb")
+	)
+	(wire
+		(pts
 			(xy 64.77 92.71) (xy 83.82 92.71)
 		)
 		(stroke
@@ -2542,6 +2826,16 @@
 			(type default)
 		)
 		(uuid "71ba0c68-b7c9-42ee-850f-8dba0f253565")
+	)
+	(wire
+		(pts
+			(xy 63.5 148.59) (xy 63.5 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "747348cb-9b8b-4a23-9d3e-295ff0b36fc0")
 	)
 	(wire
 		(pts
@@ -2562,6 +2856,16 @@
 			(type default)
 		)
 		(uuid "75be8725-0725-4c1f-8027-9bccd7ea0fd7")
+	)
+	(wire
+		(pts
+			(xy 40.64 146.05) (xy 40.64 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b4bfd2-c723-4162-95a3-fc9753d28551")
 	)
 	(wire
 		(pts
@@ -2625,6 +2929,36 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 153.67) (xy 68.58 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a720ed7-505e-4439-9e0d-104c6d7a9ce5")
+	)
+	(wire
+		(pts
+			(xy 68.58 143.51) (xy 80.01 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea365a8-eb0f-4f1a-ab61-f23d9aabb9ee")
+	)
+	(wire
+		(pts
+			(xy 34.29 140.97) (xy 34.29 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920af84e-f104-4987-9db0-bf8a39b0b855")
+	)
+	(wire
+		(pts
 			(xy 243.84 95.25) (xy 254 95.25)
 		)
 		(stroke
@@ -2665,6 +2999,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 170.18) (xy 41.91 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba840d27-9b5d-460b-b1c6-d44074a82aba")
+	)
+	(wire
+		(pts
 			(xy 243.84 100.33) (xy 254 100.33)
 		)
 		(stroke
@@ -2682,6 +3026,16 @@
 			(type default)
 		)
 		(uuid "bbaa819c-7f28-44d6-9ac1-e1d74eff8b97")
+	)
+	(wire
+		(pts
+			(xy 39.37 180.34) (xy 41.91 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdadc207-a0a2-4c69-8881-1933d2bda481")
 	)
 	(wire
 		(pts
@@ -2722,6 +3076,36 @@
 			(type default)
 		)
 		(uuid "cff030ea-7305-4ad1-bd11-88800bb0a535")
+	)
+	(wire
+		(pts
+			(xy 59.69 143.51) (xy 68.58 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d23edd5e-b36e-4ee3-842e-c10e62982b00")
+	)
+	(wire
+		(pts
+			(xy 52.07 153.67) (xy 52.07 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b508a2-7dd8-4787-b8d4-b15b0be1d836")
+	)
+	(wire
+		(pts
+			(xy 49.53 170.18) (xy 52.07 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded3db62-dc3c-4f6d-97af-33808f3799fd")
 	)
 	(wire
 		(pts
@@ -3002,6 +3386,16 @@
 			(justify right bottom)
 		)
 		(uuid "68a580b1-918f-47a7-81d2-be8e151d3885")
+	)
+	(label "OUT"
+		(at 80.01 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80a46021-1349-4718-a25d-53fb312a8f36")
 	)
 	(label "Q_SDA_IN"
 		(at 212.09 95.25 0)
@@ -3388,6 +3782,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 170.18 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19f1b4fa-4061-46e5-a967-3db6dd9b8374")
+		(property "Reference" "TP46"
+			(at 34.544 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 34.5948 171.323 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 39.37 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d32df9fe-2b08-4805-876e-efab712ab01c")
+		)
+		(instances
+			(project "led_driver_220v_p3"
+				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
+					(reference "TP46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 109.22 74.93 0)
 		(unit 1)
@@ -3524,6 +3984,72 @@
 			(project "led_driver_220v_p3"
 				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
 					(reference "TP44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 34.29 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c0670ff-9c74-4688-87bb-f5c52ca70bd5")
+		(property "Reference" "#PWR043"
+			(at 34.29 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 34.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 34.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6a88229-1c85-469a-a3a3-d6b7f470c183")
+		)
+		(instances
+			(project "led_driver_220v_p3"
+				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3751,6 +4277,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 68.58 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2db4234c-9e5d-4c34-be33-4e64373ade49")
+		(property "Reference" "#PWR046"
+			(at 68.58 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46ac182f-2799-4810-813c-ac5326d5c5fd")
+		)
+		(instances
+			(project "led_driver_220v_p3"
+				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 222.25 92.71 270)
 		(unit 1)
@@ -3810,6 +4402,72 @@
 			(project "led_driver_220v_p3"
 				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
 					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32e2b9ea-6806-49b1-8d4d-d04d53d6edcf")
+		(property "Reference" "#PWR044"
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecd8746c-3461-4e0e-b487-178b8b5de336")
+		)
+		(instances
+			(project "led_driver_220v_p3"
+				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4154,6 +4812,139 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 52.07 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5391c3db-12dd-47bd-a4b7-ca9e120365d8")
+		(property "Reference" "TP49"
+			(at 56.896 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 56.8452 181.483 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 52.07 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c0e3937-8f6a-4c00-85bb-00555bab666d")
+		)
+		(instances
+			(project "led_driver_220v_p3"
+				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
+					(reference "TP49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55a6008f-60ad-4777-8a92-24fc7b9130db")
+		(property "Reference" "R8"
+			(at 45.72 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 45.72 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 45.72 171.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ecfbdf6-6f52-4fa2-8591-f1fa89c02585")
+		)
+		(pin "2"
+			(uuid "5fd8df01-b504-4049-b5e4-18dcc010fd39")
+		)
+		(instances
+			(project "led_driver_220v_p3"
+				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 243.84 92.71 90)
 		(mirror x)
 		(unit 1)
@@ -4281,6 +5072,76 @@
 			(project "led_driver_220v_p3"
 				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 68.58 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ea689f8-acde-4783-b66f-4ba8ea345f6c")
+		(property "Reference" "R7"
+			(at 71.12 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k"
+			(at 71.12 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 66.802 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55d5b156-3d13-4f9b-8029-e4d0f65d29d4")
+		)
+		(pin "2"
+			(uuid "edf0ed75-4e2d-4d2c-bbfc-8e87b9648359")
+		)
+		(instances
+			(project "led_driver_220v_p3"
+				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4823,6 +5684,71 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 52.07 170.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8225009d-7910-4dd7-9165-a6c4a5762902")
+		(property "Reference" "TP48"
+			(at 56.896 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 56.8452 171.323 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 52.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb313eba-ce6b-46eb-bc1e-7ca2ec219a70")
+		)
+		(instances
+			(project "led_driver_220v_p3"
+				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
+					(reference "TP48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 243.84 100.33 90)
 		(mirror x)
 		(unit 1)
@@ -5231,6 +6157,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 180.34 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2095f76-6ac8-43ed-97e0-d54560fb66c2")
+		(property "Reference" "TP47"
+			(at 34.544 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 34.5948 181.483 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 39.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3726ddb5-d609-4b94-b8af-a2244f9c573e")
+		)
+		(instances
+			(project "led_driver_220v_p3"
+				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
+					(reference "TP47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 217.17 72.39 0)
 		(unit 1)
@@ -5301,6 +6293,76 @@
 			(project "led_driver_220v_p3"
 				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 68.58 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a84d94e4-f140-40ba-ba32-ce03c8be81d7")
+		(property "Reference" "R6"
+			(at 71.12 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "56k"
+			(at 71.12 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 66.802 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9dc36f0-b847-4ebf-bf45-0bcf9ebda246")
+		)
+		(pin "2"
+			(uuid "87d948ec-9aca-4d20-a561-cab985c176ef")
+		)
+		(instances
+			(project "led_driver_220v_p3"
+				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5775,6 +6837,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:SPX3819M5-L")
+		(at 52.07 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7b9a169-94ef-45d7-8547-cdfb445ae317")
+		(property "Reference" "U3"
+			(at 52.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPX3819M5-L"
+			(at 52.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 52.07 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819"
+			(at 52.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA Low drop-out regulator, Adjustable, SOT-23-5"
+			(at 52.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6350f5b6-137e-49ed-8adf-2e58602a77cd")
+		)
+		(pin "4"
+			(uuid "1b791295-52b9-460f-a8bd-df6c4bcaadbc")
+		)
+		(pin "5"
+			(uuid "69228d3e-aa91-48e2-a88a-9241cd369367")
+		)
+		(pin "1"
+			(uuid "00542740-61b5-4e63-ace9-00fc5c8dbd83")
+		)
+		(pin "3"
+			(uuid "d214e40c-6671-495b-b824-983ff2c4c073")
+		)
+		(instances
+			(project "led_driver_220v_p3"
+				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 213.36 151.13 180)
 		(unit 1)
@@ -6177,6 +7316,74 @@
 			(project "led_driver_220v_p3"
 				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
 					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d58999e7-c9de-485a-9c62-d29183b42720")
+		(property "Reference" "R9"
+			(at 45.72 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 45.72 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 45.72 182.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6f915c1-f5c7-41b9-9dff-e9992911183c")
+		)
+		(pin "2"
+			(uuid "4eba0621-ea7c-4ee7-bc9d-99145fcd53a4")
+		)
+		(instances
+			(project "led_driver_220v_p3"
+				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
+					(reference "R9")
 					(unit 1)
 				)
 			)
