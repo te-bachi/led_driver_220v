@@ -2335,6 +2335,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 128.27) (xy 257.81 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "123f5d82-d57c-4565-ba3b-be5c7c0e420f")
+	)
+	(wire
+		(pts
 			(xy 143.51 129.54) (xy 162.56 129.54)
 		)
 		(stroke
@@ -2482,6 +2492,16 @@
 			(type default)
 		)
 		(uuid "53f7ee18-04ef-451e-9945-0d97cf91ec44")
+	)
+	(wire
+		(pts
+			(xy 265.43 128.27) (xy 267.97 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60028771-e7f9-4464-a4d8-68e82d30bfe1")
 	)
 	(wire
 		(pts
@@ -3445,6 +3465,72 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 255.27 128.27 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ac45d4f-fcf8-43d7-8b53-ee3c94b8f87b")
+		(property "Reference" "TP44"
+			(at 250.444 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 250.4948 129.413 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 255.27 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60d87a20-f99c-47cb-9ffe-cb9f4f6cdc6e")
+		)
+		(instances
+			(project "led_driver_220v_p3"
+				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
+					(reference "TP44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 265.43 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4127,6 +4213,74 @@
 			(project "led_driver_220v_p3"
 				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
 					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 261.62 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55de653c-0db0-4e7d-a252-1da6f5e342e9")
+		(property "Reference" "R5"
+			(at 261.62 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 261.62 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 261.62 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0febf34-dff5-478d-9e11-afd3bc9eae32")
+		)
+		(pin "2"
+			(uuid "92b51dd8-87ab-43b9-b9b0-6c6c0a211673")
+		)
+		(instances
+			(project "led_driver_220v_p3"
+				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6153,6 +6307,71 @@
 			(project "led_driver_220v_p3"
 				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
 					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 267.97 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5dccda3-b113-42c7-b2e3-73e2ae6b0a58")
+		(property "Reference" "TP45"
+			(at 272.796 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 272.7452 129.413 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b6630b1-be17-40a4-a364-6317c0e934be")
+		)
+		(instances
+			(project "led_driver_220v_p3"
+				(path "/73fbfc2f-6207-4cf0-8939-c74998e2b107/d428b32d-6d2b-484f-a727-4bbeb5521592"
+					(reference "TP45")
 					(unit 1)
 				)
 			)
