@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.2*%
+%TF.CreationDate,2025-06-27T09:26:43+02:00*%
+%TF.ProjectId,led_driver_220v_p1,6c65645f-6472-4697-9665-725f32323076,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.2) date 2025-06-27 09:26:43*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,1.400000X2.000000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,D2*%
+X143694000Y-74109000D03*
+X139694000Y-74109000D03*
+X139694000Y-80059000D03*
+X143694000Y-80059000D03*
+%TD*%
+M02*
